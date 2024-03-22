@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .CT {
+            width: 1200px;
+            height: 1200px;
+            border: 0px solid #cfcfcf;
+            margin: auto;
+            padding: 15px;
+            overflow: hidden;
+            text-align: center;
+            line-height: 1200px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            margin: 5px;
+            background: linear-gradient(45deg, rgb(210, 210, 210), white);
+            border: 1px solid #000;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+            font-size: 0;
+            display: inline-block;
+            position: relative;
+        }
+
+        .dot1 {
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dot2 {
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            float: left;
+            margin: 5%;
+        }
+
+        .dot3 {
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            float: right;
+            margin: 5%;
+        }
+
+        .dot4 {
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            float: left;
+            margin: 5%;
+        }
+
+        .dot5 {
+            width: 25px;
+            height: 25px;
+            background: #000;
+            border-radius: 50%;
+            float: right;
+            margin: 5%;
+        }
+
+        .dot6 {
+            width: 25px;
+            height: 25px;
+            background: #eb2b2b;
+            border-radius: 50%;
+            float: left;
+            margin: 5%;
+        }
+
+        .dot7 {
+            width: 25px;
+            height: 25px;
+            background: #21d811;
+            border-radius: 50%;
+            float: right;
+            margin: 5%;
+        }
+
+        /* 空白層 */
+        .space {
+            width: 25px;
+            height: 25px;
+            margin: 5%;
+            clear: both;
+        }
+
+        .R {
+            background: red;
+        }
+
+        .B {
+            background: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="CT">
+
+        <div class="box">
+            <div class="R dot1"></div>
+        </div>
+
+        <div class="box ">
+            <div class="B dot2"></div>
+            <div class="space"></div>
+            <div class="B dot7"></div>
+        </div>
+
+        <div class="box ">
+            <div class="B dot1"></div>
+            <div class="B dot2"></div>
+            <div class="space"></div>
+            <div class="B dot7"></div>
+        </div>
+
+        <div class="box ">
+            <div class="R dot2"></div>
+            <div class="R dot3"></div>
+            <div class="space"></div>
+            <div class="R dot6"></div>
+            <div class="R dot7"></div>
+        </div>
+
+        <div class="box ">
+            <div class="B dot1"></div>
+            <div class="B dot2"></div>
+            <div class="B dot3"></div>
+            <div class="space"></div>
+            <div class="B dot6"></div>
+            <div class="B dot7"></div>
+        </div>
+
+        <div class="box ">
+            <div class="B dot2"></div>
+            <div class="B dot3"></div>
+            <div class="B dot4"></div>
+            <div class="B dot5"></div>
+            <div class="B dot6"></div>
+            <div class="B dot7"></div>
+        </div>
+    </div>
+</body>
+
+</html>
